@@ -1,0 +1,4 @@
+<hello name="{{ name }}"></hello>
+<div class="column-chooser" >
+	<div *ngFor="let value of values"><input type="checkbox" (click)="fire(value)" >{{'column ' + value}}</div>
+</div>
